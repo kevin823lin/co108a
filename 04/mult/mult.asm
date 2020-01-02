@@ -1,3 +1,21 @@
+@0
+D=A
+@2
+M=D
+(LOOP)
+@0
+D=M
+@END
+D;JLE
+@1
+D=M
+@2
+M=M+D
+@0
+M=M-1
+@LOOP
+0;JMP
+(END)
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
